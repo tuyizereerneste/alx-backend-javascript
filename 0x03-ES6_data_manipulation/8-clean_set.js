@@ -7,7 +7,7 @@ export default function cleanSet(set, startString) {
     if (value.startsWith(startString)) {
       const remainedString = value.slice(startString.length);
       if (remainedString && remainedString !== value) {
-      strings.push(remainedString);
+        strings.push(remainedString);
       }
     }
   }
